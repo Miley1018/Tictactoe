@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import ChangedReducer from './reducer_changeBoard';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  changed:ChangedReducer
 });
 
 export default rootReducer;

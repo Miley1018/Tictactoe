@@ -1,0 +1,4 @@
+table,td { border: 1px solid black;}
+td{width: 25px; height: 25px;padding: 0}
+button {border: none; width: 25px; height: 25px; padding:0; background:none; display: block }
+i.fa{font-size: 9em;color: red}
